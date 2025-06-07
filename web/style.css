@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+
+}
+header{
+    padding: 20px 8%;
+
+}
+section{
+    padding: 70px 8%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+/*.logo-div{
+    width: 30%;
+    background-color: red;
+
+}
+.logo span{
+    color:green;
+}
+.logo p{
+    color: rgb(49, 49, 56);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    list-style: none;
+    
+}
+ul li{
+    padding: 10px 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    transition: 0.5s;
+    font-size: 14px;
+}
+ul li a:hover{
+    background-color: yellowgreen;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}*/
+.btn header{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.btn{
+    color: black;
+    background-color:yellow ;
+    border: 2px solid pink;
+    padding: 15px 30px ;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(red, green, blue, alpha);
+    transition: 0.5 s;
+
+}
+.btn:hover{
+    background-color: aqua;
+    transform: rotate(5deg);
+}
+.btn i{
+    margin-right: 5px;
+}
+.home-sectin {
+    display: flex;
+    justify-content: center;
+    width: absolute;
+}
